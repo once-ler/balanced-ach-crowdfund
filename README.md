@@ -1,6 +1,10 @@
 balanced-ach-crowdfund
 ======================
 
+<pre>
+npm install balanced-ach-crowdfund
+</pre>
+
 Balanced ACH Debit Client for Equity Crowdfunding
 
 Inspired by @MedStartr, a healthcare crowdfunding platform, this project provides the backend for similar minded startups who want to inspire healthcare innovations through crowdfunding.
