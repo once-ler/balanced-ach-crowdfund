@@ -1,0 +1,34 @@
+{
+  "name": "balanced-ach-crowdfund",
+  "version": "0.0.1",
+  "description": "Balanced ACH Debit Client for Equity Crowdfunding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/htaox/balanced-ach-crowdfund.git"
+  },
+  "keywords": [
+    "Equity",
+    "Crowdfunding",
+    "JOBS",
+    "Balanced",
+    "Redis",
+    "Healthcare"
+  ],
+  "author": "Henry Tao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htaox/balanced-ach-crowdfund/issues"
+  },
+  "homepage": "https://github.com/htaox/balanced-ach-crowdfund",
+  "dependencies": {
+    "redis": "~0.11.0",
+    "request": "~2.38.0",
+    "node-uuid": "~1.4.1",
+    "underscore": "~1.6.0",
+    "balanced-official": "~1.3.0"
+  }
+}
