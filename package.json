@@ -4,7 +4,7 @@
   "description": "Balanced ACH Debit Client for Equity Crowdfunding",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
     "Redis",
     "Healthcare"
   ],
-  "author": "Henry Tao",
+  "author": {
+    "name": "Henry Tao"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/htaox/balanced-ach-crowdfund/issues"
@@ -30,5 +32,13 @@
     "node-uuid": "~1.4.1",
     "underscore": "~1.6.0",
     "balanced-official": "~1.3.0"
+  },
+  "readme": "balanced-ach-crowdfund\n======================\n\nBalanced ACH Debit Client for Equity Crowdfunding\n\nInspired by @MedStartr, a healthcare crowdfunding platform, this project provides the backend for similar minded startups who want to inspire healthcare innovations through crowdfunding.\n\n##Equity Crowdfunding\n\nThis project is general enough to use for any crowdfinding ideas, but specially, it targets equity crowdfunding, using the fantastic ACH debit facilities offered by Balanced.\n\nIf you're not familar with equity crowdfinding and specifically the JOBS Act, you can find more information [here](http://en.wikipedia.org/wiki/Jumpstart_Our_Business_Startups_Act)\n\nBalanced Payments is an open company that provides payment processing services thru REST API.  More information on their ACH debit services can be found [here](https://www.balancedpayments.com/ach-debits)\n\n##Why Redis?\n\nI am using Redis as a backend for simplicity and fast processing.  You can get persistence using the AOF option.  Most of the time, after a campaign is concluded, you'd probably archive it somewhere else, and not keep it in your website.  Finally, Redis offers an easy way to aggregate stats using zsets.\n",
+  "readmeFilename": "README.md",
+  "_id": "balanced-ach-crowdfund@0.0.1",
+  "_from": "balanced-ach-crowdfund@",
+  "devDependencies": {
+    "should": "~4.0.4",
+    "mocha": "~1.21.0"
   }
 }
