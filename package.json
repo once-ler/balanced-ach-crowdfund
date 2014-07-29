@@ -1,6 +1,6 @@
 {
   "name": "balanced-ach-crowdfund",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Balanced ACH Debit Client for Equity Crowdfunding",
   "main": "index.js",
   "scripts": {
@@ -39,6 +39,7 @@
   "_from": "balanced-ach-crowdfund@",
   "devDependencies": {
     "should": "~4.0.4",
-    "mocha": "~1.21.0"
+    "mocha": "~1.21.0",
+    "supertest": "~0.13.0"
   }
 }
